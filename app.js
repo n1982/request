@@ -20,7 +20,7 @@ app.use(morgan('dev'))
 //body-parser
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
-//подключение cros (сразу в строке app.use)
+//подключение cors (сразу в строке app.use)
 app.use(require('cors')())
 
 //маршруты
